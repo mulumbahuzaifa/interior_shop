@@ -102,8 +102,8 @@
                 <h4>Space Planning</h4>
                 <p>Our space planning services focus on creating layouts that maximize utility,creating a seamless and inviting environment</p>
               </div>
+            <div class="col-md-12 text-center mt-3"><a href="{{ route('services') }}" class="btn btn-warning btn-attractive">View Services</a></div>
           </div>
-          <div><a href="{{ route('services') }}" class="btn btn-warning">View Services</a></div>
         </div>
         <div class="col-md-5">
           <div class="welImg"><img src="{{ asset('images/welcomeImg.jpg') }}" alt=""></div>
@@ -270,86 +270,116 @@
   </div>
   <!--Team End-->
 
-  <!--Counter Start-->
-  <div id="counter">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
-          <div class="counterbox">
-            <div class="counter-icon"><i class="fa fa-home" aria-hidden="true"></i></div>
-            <span class="counter-number" data-from="1" data-to="1456" data-speed="1000">1456</span> <span class="counter-text">Projects Completed</span> </div>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
-          <div class="counterbox">
-            <div class="counter-icon"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
-            <span class="counter-number" data-from="1" data-to="144" data-speed="2000">144</span> <span class="counter-text">Fresh Ideas</span> </div>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
-          <div class="counterbox">
-            <div class="counter-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-            <span class="counter-number" data-from="1" data-to="917" data-speed="3000">917</span> <span class="counter-text">Satistied Clients</span> </div>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
-          <div class="counterbox">
-            <div class="counter-icon"><i class="fa fa-coffee" aria-hidden="true"></i></div>
-            <span class="counter-number" data-from="1" data-to="261" data-speed="4000">261</span> <span class="counter-text">Cups of Coffee</span> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Counter End-->
 
-  <!--Testimonials Start-->
-  <div class="testimonials-wrap">
+    <!-- Counter Start -->
+    <div id="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
+                    <div class="counterbox">
+                        <div class="counter-icon"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
+                        <span class="counter-number" data-from="1" data-to="356" data-speed="1000">356</span>
+                        <span class="counter-text">Unique Designs</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
+                    <div class="counterbox">
+                        <div class="counter-icon"><i class="fa fa-star" aria-hidden="true"></i></div>
+                        <span class="counter-number" data-from="1" data-to="78" data-speed="2000">78</span>
+                        <span class="counter-text">Award-winning Projects</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
+                    <div class="counterbox">
+                        <div class="counter-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+                        <span class="counter-number" data-from="1" data-to="524" data-speed="3000">524</span>
+                        <span class="counter-text">Happy Clients</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
+                    <div class="counterbox">
+                        <div class="counter-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                        <span class="counter-number" data-from="1" data-to="46" data-speed="4000">46</span>
+                        <span class="counter-text">Countries Served</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counter End -->
+  <div class=" inner-content BlogWrp">
     <div class="container">
-      <div class="row">
+    <div class="row blog-grid">
         <div class="title">
-          <h1><span>Testimonials</span> What Our Client Says</h1>
-        </div>
-        <ul class="testimonialsList owl-carousel">
+            <h1><span>Our</span> Design Stories</h1>
 
-          <!-- Client -->
-          <li class="item">
-            <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim eros, commodo et est non, lobortis accumsan nisi. Vivamus porttitor, tortor ac pharetra imperdiet, metus ligula pulvinar ex, vitae vulputate purus dui vitae arcu. Vivamus consectetur purus pulvinar est porttitor finibus.</p>
-            <div class="testInfo">
-              <div class="testimg"><img src="{{ asset('images/IMG_1735.JPG') }}" width="70" alt="Your alt text here"></div>
-              <div class="clientname">Duis Consectetur</div>
-              <div class="clientinfo">Designation Here</div>
+          </div>
+          <p>Explore the latest trends, expert tips, and inspiring interior design stories from our blog,
+            <span>Stay updated with the latest in interior design. Our blog covers a variety of topics, from home decor ideas to industry insights. Find inspiration for your next project and learn from our design experts.!</span></p>
+
+        <!-- Blog Section Subheader -->
+
+        <div class="clearfix"></div>
+        <div class="col-lg-12">
+        <div class="row">
+            <div class="col-md-4">
+            <div class="blog-thumb blog-list-thumb">
+                <div class="blogImg"> <img src="{{ asset('images/blog-thumb-1.jpg') }}" alt=""> </div>
+                <div class="blogInfo">
+                    <h5><a href="#">Creating a Cozy Living Room Atmosphere</a></h5>
+                <ul class="blog-meta">
+                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">Jule 10</a> </li>
+                    <li> <i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a> </li>
+                    <li> <i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Design</a> </li>
+                </ul>
+                <p>Discover tips on how to transform your living room into a warm and inviting space. Learn about color schemes, furniture arrangement, and decor elements.</p>
+                <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
+                </div>
             </div>
-          </li>
-          <li class="item">
-            <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim eros, commodo et est non, lobortis accumsan nisi. Vivamus porttitor, tortor ac pharetra imperdiet, metus ligula pulvinar ex, vitae vulputate purus dui vitae arcu. Vivamus consectetur purus pulvinar est porttitor finibus.</p>
-            <div class="testInfo">
-              <div class="testimg"><img src="{{ asset('images/IMG_1735.JPG') }}" width="70" alt="Your alt text here"></div>
-              <div class="clientname">Duis Consectetur</div>
-              <div class="clientinfo">Designation Here</div>
             </div>
-          </li>
-          <li class="item">
-            <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim eros, commodo et est non, lobortis accumsan nisi. Vivamus porttitor, tortor ac pharetra imperdiet, metus ligula pulvinar ex, vitae vulputate purus dui vitae arcu. Vivamus consectetur purus pulvinar est porttitor finibus.</p>
-            <div class="testInfo">
-              <div class="testimg"><img src="{{ asset('images/IMG_1735.JPG') }}" width="70" alt="Your alt text here"></div>
-              <div class="clientname">Duis Consectetur</div>
-              <div class="clientinfo">Designation Here</div>
+    <!-- Second Blog Example -->
+            <div class="col-md-4">
+                <div class="blog-thumb blog-list-thumb">
+                    <div class="blogImg"><img src="{{ asset('images/blog-thumb-2.jpg') }}" alt=""></div>
+                    <div class="blogInfo">
+                        <h5><a href="#">Revitalize Your Kitchen: Smart Design Ideas</a></h5>
+                        <ul class="blog-meta">
+                            <li><i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">July 15</a></li>
+                            <li><i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a></li>
+                            <li><i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Kitchen</a></li>
+                        </ul>
+                        <p>Explore innovative kitchen design concepts to maximize functionality and style. Learn about the latest trends in kitchen decor, storage solutions, and more.</p>
+                        <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
+                    </div>
+                </div>
             </div>
-          </li>
-          <li class="item">
-            <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim eros, commodo et est non, lobortis accumsan nisi. Vivamus porttitor, tortor ac pharetra imperdiet, metus ligula pulvinar ex, vitae vulputate purus dui vitae arcu. Vivamus consectetur purus pulvinar est porttitor finibus.</p>
-            <div class="testInfo">
-              <div class="testimg"><img src="{{ asset('images/IMG_1735.JPG') }}" width="70" alt="Your alt text here"></div>
-              <div class="clientname">Duis Consectetur</div>
-              <div class="clientinfo">Designation Here</div>
+
+            <!-- Third Blog Example -->
+            <div class="col-md-4">
+                <div class="blog-thumb blog-list-thumb">
+                    <div class="blogImg"><img src="{{ asset('images/blog-thumb-3.jpg') }}" alt=""></div>
+                    <div class="blogInfo">
+                        <h5><a href="#">Embracing Minimalism in Interior Design</a></h5>
+                        <ul class="blog-meta">
+                            <li><i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">July 20</a></li>
+                            <li><i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a></li>
+                            <li><i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Minimalism</a></li>
+                        </ul>
+                        <p>Discover the beauty of minimalist interior design and how it can transform your living spaces. Learn tips on decluttering, choosing essential pieces, and creating a serene ambiance.</p>
+                        <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-      </div>
+
+        </div>
+
+        </div>
+
     </div>
-  </div>
-  <!--Testimonials End-->
+    </div>
+</div>
+
+
 
   <!--News Start-->
   <div class="news-wrap">

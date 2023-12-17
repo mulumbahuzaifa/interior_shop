@@ -100,7 +100,7 @@ ul, ol {
     background: rgba(0, 0, 0, 0.66);
     border-radius: 0;
     border: none;
-    padding: 12px 0 0px 10px;
+    /* padding: 12px 0 0px 10px; */
 }
 
 .navbar-nav {
@@ -267,6 +267,32 @@ ul, ol {
 .tp-banner {
     position: relative;
     width: 100%;
+}
+.tp-banner li {
+    position: relative;
+    overflow: hidden;
+}
+
+.tp-banner li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tp-banner li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+
+.caption {
+    z-index: 2;
+    position: relative;
 }
 
 .tp-caption {
@@ -820,6 +846,26 @@ a.slidebtn i {
     color: #818080;
 }
 
+.welcomeWrap .btn-attractive, .about-wrap .btn-attractive {
+    background-color: #ff8c00; /* Change the background color as desired */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcomeWrap .btn-attractive:hover, .about-wrap .btn-attractive:hover {
+    background-color: #e07b00; /* Change the hover background color as desired */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
 .welcome-content-box {
     width: 100%;
     margin-top: 30px;
@@ -1002,12 +1048,12 @@ a.slidebtn i {
 /**********************************
 		Team Css
 **********************************/
-.team-wrap {
+.team-wrap, .BlogWrp {
     padding: 60px 0;
     background: url(../images/ptn-1.png) repeat;
 }
 
-.team-wrap .title {
+.team-wrap .title, .BlogWrp .title {
     margin-bottom: 50px;
     border-right: 1px solid #a58838;
     float: left;
@@ -1015,8 +1061,8 @@ a.slidebtn i {
     margin-right: 50px;
 }
 
-.team-wrap p {
-    margin-top: 24px;
+.team-wrap p, .BlogWrp p  {
+    margin-top: 15px;
 }
 
 .team-wrap ul {
@@ -2579,7 +2625,7 @@ textarea.form-control {
         margin: 0 -1px;
     }
 
-    .team-wrap p {
+    .team-wrap p, .BlogWrp p {
         margin-top: -12px;
     }
 
@@ -2714,11 +2760,11 @@ textarea.form-control {
         width: 50%;
     }
 
-    .project-heading p span, .team-wrap p span {
+    .project-heading p span, .team-wrap p span, .BlogWrp p span {
         display: none;
     }
 
-    .team-wrap p {
+    .team-wrap p .BlogWrp p {
         margin-top: 10px;
     }
 
@@ -2786,7 +2832,7 @@ textarea.form-control {
     }
 
     .navbar-default {
-        padding: 12px 0 12px 10px;
+        /* padding: 12px 0 12px 10px; */
     }
 
     .service-wrap .service-thumb {

@@ -18,14 +18,14 @@
               <div class="blog-thumb blog-list-thumb">
                 <div class="blogImg"> <img src="{{ asset('images/blog-thumb-1.jpg') }}" alt=""> </div>
                 <div class="blogInfo">
-                  <h5><a href="#">Nunc sagittis bibendum elit </a></h5>
-                  <ul class="blog-meta">
-                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">Jule 10</a> </li>
-                    <li> <i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a> </li>
-                    <li> <i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Design</a> </li>
-                  </ul>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore...</p>
-                  <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
+                    <h5><a href="#">Revitalize Your Kitchen: Smart Design Ideas</a></h5>
+                    <ul class="blog-meta">
+                        <li><i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">July 15</a></li>
+                        <li><i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a></li>
+                        <li><i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Kitchen</a></li>
+                    </ul>
+                    <p>Explore innovative kitchen design concepts to maximize functionality and style. Learn about the latest trends in kitchen decor, storage solutions, and more.</p>
+                    <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
                 </div>
               </div>
             </div>
@@ -33,14 +33,14 @@
               <div class="blog-thumb blog-list-thumb">
                 <div class="blogImg"> <img src="{{ asset('images/blog-thumb-2.jpg') }}" alt=""> </div>
                 <div class="blogInfo">
-                  <h5><a href="#">Nunc sagittis bibendum elit </a></h5>
-                  <ul class="blog-meta">
-                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">Jule 10</a> </li>
-                    <li> <i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a> </li>
-                    <li> <i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Design</a> </li>
-                  </ul>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore...</p>
-                  <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
+                    <h5><a href="#">Creating a Cozy Living Room Atmosphere</a></h5>
+                    <ul class="blog-meta">
+                        <li> <i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">Jule 10</a> </li>
+                        <li> <i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a> </li>
+                        <li> <i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Design</a> </li>
+                    </ul>
+                    <p>Discover tips on how to transform your living room into a warm and inviting space. Learn about color schemes, furniture arrangement, and decor elements.</p>
+                    <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
                 </div>
               </div>
             </div>
@@ -48,14 +48,14 @@
               <div class="blog-thumb blog-list-thumb">
                 <div class="blogImg"> <img src="{{ asset('images/blog-thumb-3.jpg') }}" alt=""> </div>
                 <div class="blogInfo">
-                  <h5><a href="#">Nunc sagittis bibendum elit </a></h5>
-                  <ul class="blog-meta">
-                    <li> <i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">Jule 10</a> </li>
-                    <li> <i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a> </li>
-                    <li> <i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Design</a> </li>
-                  </ul>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore...</p>
-                  <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
+                    <h5><a href="#">Embracing Minimalism in Interior Design</a></h5>
+                    <ul class="blog-meta">
+                        <li><i class="fa fa-calendar" aria-hidden="true"></i> <a href="#">July 20</a></li>
+                        <li><i class="fa fa-user" aria-hidden="true"></i> <a href="#">ADMIN</a></li>
+                        <li><i class="fa fa-tag" aria-hidden="true"></i> <a href="#">Minimalism</a></li>
+                    </ul>
+                    <p>Discover the beauty of minimalist interior design and how it can transform your living spaces. Learn tips on decluttering, choosing essential pieces, and creating a serene ambiance.</p>
+                    <div class="readmore"><a href="{{ route('blog.detail') }}">Read More</a></div>
                 </div>
               </div>
             </div>
